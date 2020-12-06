@@ -1,7 +1,7 @@
 import { ApolloClient, InMemoryCache } from '@apollo/client';
 
-const client = new ApolloClient({
-    uri: "https://ung-movieql.herokuapp.com/",
+const client = new ApolloClient({ 
+    uri: "https://movieql.unggyu.vercel.app/",
     cache: new InMemoryCache(),
     resolvers: {
         Movie: {
